@@ -1,13 +1,17 @@
 body { 
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   padding-top: 15px;
-  height: 50px;
+  height: 30px;
 }
+a {
+  text-decoration: none;
 
+}
 nav a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
@@ -17,9 +21,203 @@ nav a {
   float: right;
   padding: 0;
   margin: 0 20px 0 0;
+  position: relative;
+  bottom: 20px;
+}
+
+.header {
+height: 450px;
+background-color: rgb(32, 101, 136);
+background-image: url("./images/city-scape.svg")
 }
 
 .top-links li {
   display: inline-block;
   margin: 0 10px;
 }
+
+  .logo {
+    width: 100px;
+  }
+
+  /* .searchbar {
+    position: relative;
+    box-align: center;
+    height: 50px;
+    width: 75%; */
+
+.searchbar input {
+  position: relative;
+    box-align: center;
+    height: 30px;
+    width: 75%;
+    left: 100px;
+    bottom: 43px;
+}
+
+.button {
+  position: relative;
+  left: 81%;
+  bottom: 70px;
+}
+
+.headerlist li {
+  display: inline;
+  position: relative;
+  left: 83%; 
+  bottom: 118px;
+  color: white;
+  text-decoration: none;
+}
+
+.headerlist li a {
+  color: white;
+  left: 85%;
+}
+
+.middle-bit {
+  margin: 0 auto;
+  width: 60%;
+  color: white;
+}
+
+.headerbutton {
+  background-color: orange;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  height: 400px;
+  position: relative; 
+  bottom: 20px;
+
+}
+
+#collabphoto {
+  float: left;
+  position: relative;
+  top: 140px;
+  left: 15%;
+}
+
+.middle-bit2 a{
+  color: white;
+}
+
+.middle-bit2 {
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  width: 70%;
+  left: 20%;
+  top: 150px;
+}
+
+#red-button {
+  background-color: red;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.whatisnpm {
+  height: 450px;
+  background-size: cover;
+  background-image: url("./images/forklift.svg");
+  position: relative;
+  bottom: 45px;
+  }
+
+  .middle-bit3 {
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    width: 30%;
+    right: 20%;
+    top: 150px;
+  }
+  
+  #dark-blue-button {
+    background-color: rgb(49, 68, 88);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .make a {
+    background: white;
+    color: rgb(208, 74, 73);
+  }
+  .make {
+    position: relative;
+    bottom: 50px;
+  }
+  .makeheader {
+    position: relative;
+    top: 40px;    
+    text-align: center;
+    color: rgb(83, 88, 98);
+  } 
+  .changecolor1 {
+    color: rgb(135, 145, 156);
+  }
+.makeicons {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  color: rgb(135, 145, 156);
+
+}
+.changecolor {
+  color: rgb(83, 88, 98);
+}
+  .find img {
+    width: 100px;
+    position: relative;
+    margin: 0 auto; 
+  }
+  .find {
+    text-align: center;
+    width: 300px;
+   padding: 50px;  
+  }
+  .discover img {
+    width: 100px;
+    position: relative;
+    margin: 0 auto; 
+  }
+    .discover {
+      text-align: center;
+      width: 300px;
+      padding: 50px;
+    }
+  .build img {
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .build {
+    text-align: center;
+    width: 300px;
+    padding: 50px; 
+  }
